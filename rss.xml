@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Senthilkumar S]]></title><description><![CDATA[A paginated starter blog demonstrating what Gatsby can do. Extension of gatsby-starter-blog.]]></description><link>https://senthilkumar.dev</link><generator>RSS for Node</generator><lastBuildDate>Mon, 22 Jul 2019 08:46:29 GMT</lastBuildDate><item><title><![CDATA[Getting Started with Puppeteer - 1]]></title><description><![CDATA[What is puppeteer? Puppeteer is a cool node library which used to do some browser related operations programmatically. puppeteer runs…]]></description><link>https://senthilkumar.dev/getting-started-with-puppeteer-1/</link><guid isPermaLink="false">https://senthilkumar.dev/getting-started-with-puppeteer-1/</guid><pubDate>Sun, 21 Jul 2019 22:12:03 GMT</pubDate><content:encoded>&lt;h3&gt;What is puppeteer?&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Senthilkumar S]]></title><description><![CDATA[A paginated starter blog demonstrating what Gatsby can do. Extension of gatsby-starter-blog.]]></description><link>https://senthilkumar.dev</link><generator>RSS for Node</generator><lastBuildDate>Mon, 22 Jul 2019 09:02:18 GMT</lastBuildDate><item><title><![CDATA[Getting Started with Puppeteer - 1]]></title><description><![CDATA[🤔 What is puppeteer? Puppeteer is a cool node library which used to do some browser related operations programmatically. puppeteer runs…]]></description><link>https://senthilkumar.dev/getting-started-with-puppeteer-1/</link><guid isPermaLink="false">https://senthilkumar.dev/getting-started-with-puppeteer-1/</guid><pubDate>Sun, 21 Jul 2019 22:12:03 GMT</pubDate><content:encoded>&lt;h3&gt;🤔 What is puppeteer?&lt;/h3&gt;
 &lt;p&gt;Puppeteer is a cool node library which used to do some browser related operations programmatically. puppeteer runs chromium inside it.&lt;/p&gt;
-&lt;h3&gt;Headless Chromium?&lt;/h3&gt;
+&lt;h3&gt;😯 Headless Chromium?&lt;/h3&gt;
 &lt;p&gt;Headless is simply a chromium without user interface. In other words, browser build for machines not humans . Headless can be embed to code and use programmatically.&lt;/p&gt;
 &lt;p&gt;Though puppeteer uses headless chromium by default. We can customize puppeteer to use non headless or specific chrome or chromium builds.&lt;/p&gt;
-&lt;h3&gt;These works can be done by puppeteer?&lt;/h3&gt;
+&lt;h3&gt;💪 These works can be done by puppeteer?&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Taking screenshots of web pages.&lt;/p&gt;
@@ -19,12 +19,12 @@
 &lt;p&gt;Automate web related taks.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Let’s get started.&lt;/h3&gt;
+&lt;h3&gt;🏃 Let’s get started.&lt;/h3&gt;
 &lt;p&gt;We shall create node js program which will take screenshots of the site with different device sizes.&lt;/p&gt;
-&lt;h3&gt;Prerequisites:&lt;/h3&gt;
+&lt;h3&gt;💼 Prerequisites:&lt;/h3&gt;
 &lt;p&gt;Node js installed in your computer. Better if its latest version.&lt;/p&gt;
 &lt;p&gt;A new folder to hold this code.&lt;/p&gt;
-&lt;h3&gt;Setup&lt;/h3&gt;
+&lt;h3&gt;🔧 Setup&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Open the newly created folder in terminal or command prompt&lt;/p&gt;
@@ -39,7 +39,7 @@
 &lt;p&gt;Now create a main js file. i named it &lt;code class=&quot;language-text&quot;&gt;index.js&lt;/code&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;Code&lt;/h3&gt;
+&lt;h3&gt;💻 Code&lt;/h3&gt;
 &lt;p&gt;import puppeteer into code&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt;  puppeteer  &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;  &lt;span class=&quot;token function&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;puppeteer&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;I have created the function called &lt;code class=&quot;language-text&quot;&gt;takescreenshot&lt;/code&gt; which accepts two command line arguments . one is url of the web page another is a file path to save screenshots.&lt;/p&gt;
@@ -131,4 +131,4 @@
 
 &lt;span class=&quot;token function&quot;&gt;takescreenshot&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt; process&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;argv&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; process&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;argv&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Thanks.&lt;/p&gt;
-&lt;p&gt;Enjoy !!!&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;😉Enjoy !!!&lt;/p&gt;</content:encoded></item></channel></rss>
