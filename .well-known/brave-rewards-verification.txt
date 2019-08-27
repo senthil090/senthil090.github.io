@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: senthilkumar.dev
+Token: b4e3a30f105065c42a853f2402d9bd7997ed6efef246d4a83ae75fee6e6d610b
